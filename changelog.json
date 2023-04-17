@@ -416,6 +416,13 @@
     {
         "version": "v14.27",
         "date": "2023. 04. 15.",
-        "changelog": "**Változás:**\n●`Help`: globálisan kikapcsolt parancsok jelzése\n●`Status`: verzió kijelzése\n●Optimalizálások\n**Eltávolítva:**\n●`Activities`"
+        "changelog": "**Változás:**\n●`Help`: globálisan kikapcsolt parancsok jelzése\n●`Status`: verzió kijelzése\n●Optimalizálások\n**Eltávolítva:**\n●`Activities`",
+        "subversions": [
+            {
+                "version": "v14.27.1",
+                "date": "2023. 04. 17.",
+                "changelog": "**Változás:**\n●Backend változások" 
+            }
+        ]
     }
 ]
