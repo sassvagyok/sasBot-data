@@ -428,12 +428,17 @@
     {
         "version": "v14.28",
         "date": "2023. 06. 12.",
-        "changelog": "**Változás:**\n●Új Discord felhasználónév rendszer\n●`Userinfo`: banner mutatása, ha van",
+        "changelog": "**Változás:**\n●Új Discord felhasználónév rendszer\n●`Userinfo`: banner jelzése, ha van",
         "subversions": [
             {
                 "version": "v14.28.1",
                 "date": "2023. 06. 13.",
                 "changelog": "**Változás:**\n●`Avatár`: banner gomb, ha van\n**Javítás:**\n●Slash parancsok" 
+            },
+            {
+                "version": "v14.28.2",
+                "date": "2023. 06. 14.",
+                "changelog": "**Változás:**\n●`Serverinfo`:\n-banner kijelzése, ha van\n-csatornák számának jelzése" 
             }
         ]
     }
