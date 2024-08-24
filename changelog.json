@@ -441,5 +441,10 @@
                 "changelog": "**Változás:**\n●`Serverinfo`:\n-banner kijelzése, ha van\n-csatornák számának jelzése" 
             }
         ]
+    },
+    {
+        "version": "v14.29",
+        "date": "2024. 08. 24.",
+        "changelog": "**Változás:**\n●Nekosbest: új kategóriák\n●Javítva:\n●Kőpapírolló: hiba jelzése, ha nincs megadva tárgy\n●Számos hibajavítás\nEltávolítva:\n●Randomkép\n●Szavazás"
     }
 ]
