@@ -46,7 +46,7 @@
     {
         "version": "v14.3",
         "date": "2022. 07. 27.",
-        "changelog": "**Új:**\n●`Bans/Kicks/Timeouts/Warns`: Logs felbontva külön parancsokra, pontosabb kijelzés\n**Változás:**\n●`Djrole/Permissions (Prefix)`: megjelölhető rang, nem csak név és id adható meg\n●`Serverinfo/Userinfo`:\n-slash parancsként csak a használónak jelennek meg\n-kisebb változások\n●`Időjárás`: slash parancsként csak a használónak jelenik meg\n**Eltávolítva:**\n●`Logs`",
+        "changelog": "**Új:**\n●`Bans/Kicks/Timeouts/Warns`: Logs felbontva külön parancsokra, pontosabb kijelzés\n**Változás:**\n●`Djrole/Permissions (Prefix)`: megjelölhető rang, nem csak név és id adható meg\n●`Serverinfo/Userinfo`:\n-slash parancsként csak a használónak jelennek meg\n-kisebb változások\n●`Időjárás`: slash parancsként csak a használónak jelenik meg\n**Törölve:**\n●`Logs`",
         "subversions": [
             {
                 "version": "v14.3.1",
@@ -85,7 +85,7 @@
             {
                 "version": "v14.6.1",
                 "date": "2022. 08. 06.",
-                "changelog": "**Változás:**\n●`Clear/Lockdown/Unlockdown`: többi moderációs parancshoz hasonló channel formázás\n●`Unlockdown`: Lockdownhoz hasonlóan megadott channelbe is üzenetküldés\n●`Szavaz`: szavazást feltevő nem szavazhat\n●`Welcome/Autorole (Slash)`: kikapcsolás alparancsokkal\n**Javítás:**\n●Helyes idő jelzése\n●`Unban`\n●`Clearqueue/Pause/Resume`\n●`Stop (Slash)`\n●`Miatyánk/Sadstory/Selfkick (Slash)`\n●`Play`: playlistek lejátszása\n●`Bans/Kicks/Timeouts/Warns (Slash)`: minden esetben csak a használónak jelennek meg\n**Eltávolítva:**\n●`Időjárás`" 
+                "changelog": "**Változás:**\n●`Clear/Lockdown/Unlockdown`: többi moderációs parancshoz hasonló channel formázás\n●`Unlockdown`: Lockdownhoz hasonlóan megadott channelbe is üzenetküldés\n●`Szavaz`: szavazást feltevő nem szavazhat\n●`Welcome/Autorole (Slash)`: kikapcsolás alparancsokkal\n**Javítás:**\n●Helyes idő jelzése\n●`Unban`\n●`Clearqueue/Pause/Resume`\n●`Stop (Slash)`\n●`Miatyánk/Sadstory/Selfkick (Slash)`\n●`Play`: playlistek lejátszása\n●`Bans/Kicks/Timeouts/Warns (Slash)`: minden esetben csak a használónak jelennek meg\n**Törölve:**\n●`Időjárás`" 
             },
             {
                 "version": "v14.6.2",
@@ -95,7 +95,7 @@
             {
                 "version": "v14.6.3",
                 "date": "2022. 08. 08.",
-                "changelog": "**Változás:**\n●Főbb moderációs parancsok backend változásai\n●`Slowmode`: új embeddel\n**Javítás:**\n●`Slowmode (Slash)`: megadható 0" 
+                "changelog": "**Változás:**\n●Főbb moderációs parancsok háttérbeli változásai\n●`Slowmode`: új embeddel\n**Javítás:**\n●`Slowmode (Slash)`: megadható 0" 
             }
         ]
     },
@@ -129,12 +129,12 @@
     {
         "version": "v14.8",
         "date": "2022. 08. 21.",
-        "changelog": "**Változás:**\n●Zenelejátszásnál első zenénél nincs 'Hozzáadva' embed\n●`Search`: zene kiválasztása menüvel\n●`Avatar`: 1024x1024 felbontás, alapértelmezetten\n●`Userinfo/Serverinfo`: képek 1024x1024 felbontásban\n●`Ping/Info`: kisebb változások\n●További moderációs parancs backend változások\n**Javítás:**\n●`Search (Slash)`\n●Kisebb javítások",
+        "changelog": "**Változás:**\n●Zenelejátszásnál első zenénél nincs 'Hozzáadva' embed\n●`Search`: zene kiválasztása menüvel\n●`Avatar`: 1024x1024 felbontás, alapértelmezetten\n●`Userinfo/Serverinfo`: képek 1024x1024 felbontásban\n●`Ping/Info`: kisebb változások\n●További moderációs parancs háttérbeli változások\n**Javítás:**\n●`Search (Slash)`\n●Kisebb javítások",
         "subversions": [
             {
                 "version": "v14.8.1",
                 "date": "2022. 08. 22.",
-                "changelog": "**Változás:**\n●`Randomolló` -> `Szóharc`: saját szó harcba állítása az összes magyar szó ellen, majd nyertes hírdetése\n●`Changelog`: backend változások" 
+                "changelog": "**Változás:**\n●`Randomolló` -> `Szóharc`: saját szó harcba állítása az összes magyar szó ellen, majd nyertes hírdetése\n●`Changelog`: háttérbeli változások" 
             },
             {
                 "version": "v14.8.2",
@@ -156,7 +156,7 @@
             {
                 "version": "v14.9.2",
                 "date": "2022. 08. 29.",
-                "changelog": "**Változás:**\n●`Szavaz` -> `Szavazás`\n●Parancs kikapcsolás backend fejlesztései\n**Javítás:**\n●Context menu parancsok"
+                "changelog": "**Változás:**\n●`Szavaz` -> `Szavazás`\n●Parancs kikapcsolás háttérbeli fejlesztései\n**Javítás:**\n●Context menu parancsok"
             }
         ]
     },
@@ -195,7 +195,7 @@
             {
                 "version": "v14.11.4",
                 "date": "2022. 09. 24.",
-                "changelog": "**Változás:**\n●`Help`:\n-összeolvasztás a `Commandhelp` paranccsal\n-kisebb formázási változások\n**Eltávolítva:**\n●`Commandhelp`"
+                "changelog": "**Változás:**\n●`Help`:\n-összeolvasztás a `Commandhelp` paranccsal\n-kisebb formázási változások\n**Törölve:**\n●`Commandhelp`"
             }
         ]
     },
@@ -316,7 +316,7 @@
     {
         "version": "v14.20",
         "date": "2022. 11. 16.",
-        "changelog": "**Változás:**\n●`Permissions`:\n-bármilyen parancsra beállítható egyedi rang, kivéve Setup parancsokra\n-módosított parancsok kiírása\n-számos javítás\n●Kifejezés és backend változások",
+        "changelog": "**Változás:**\n●`Permissions`:\n-bármilyen parancsra beállítható egyedi rang, kivéve Setup parancsokra\n-módosított parancsok kiírása\n-számos javítás\n●Kifejezés és háttérbeli változások",
         "subversions": [
             {
                 "version": "v14.20.1",
@@ -338,12 +338,12 @@
     {
         "version": "v14.21",
         "date": "2022. 12. 11.",
-        "changelog": "**Változás:**\n●`Changelog`:\n-új formázás minden verziónál\n-alverziók sorrendje újra növekvő sorrendben\n●`Autoplay (Slash)`: be/ki állítás\n●`Status/Randomszám`: kisebb változások\n**Eltávolítva:**\n●`Selfkick`",
+        "changelog": "**Változás:**\n●`Changelog`:\n-új formázás minden verziónál\n-alverziók sorrendje újra növekvő sorrendben\n●`Autoplay (Slash)`: be/ki állítás\n●`Status/Randomszám`: kisebb változások\n**Törölve:**\n●`Selfkick`",
         "subversions": [
             {
                 "version": "v14.21.1",
                 "date": "2022. 12. 14.",
-                "changelog": "**Változás:**\n●Stabilitási és backend fejlesztések" 
+                "changelog": "**Változás:**\n●Stabilitási és háttérbeli fejlesztések" 
             }
         ]
     },
@@ -370,7 +370,7 @@
             {
                 "version": "v14.23.3",
                 "date": "2023. 02. 01.",
-                "changelog": "**Változás:**\n●`Szóharc`: új végeredmények\n**Javítás:**\n●`Changelog`: ritka crash\n**Eltávolítva:**\n●`De`" 
+                "changelog": "**Változás:**\n●`Szóharc`: új végeredmények\n**Javítás:**\n●`Changelog`: ritka crash\n**Törölve:**\n●`De`" 
             }
         ]
     },
@@ -416,7 +416,7 @@
     {
         "version": "v14.27",
         "date": "2023. 04. 15.",
-        "changelog": "**Változás:**\n●`Help`: globálisan kikapcsolt parancsok jelzése\n●`Status`: verzió kijelzése\n●Optimalizálások\n**Eltávolítva:**\n●`Activities`",
+        "changelog": "**Változás:**\n●`Help`: globálisan kikapcsolt parancsok jelzése\n●`Status`: verzió kijelzése\n●Optimalizálások\n**Törölve:**\n●`Activities`",
         "subversions": [
             {
                 "version": "v14.27.1",
@@ -445,6 +445,11 @@
     {
         "version": "v14.29",
         "date": "2024. 08. 24.",
-        "changelog": "**Változás:**\n●Nekosbest: új kategóriák\n●Javítva:\n●Kőpapírolló: hiba jelzése, ha nincs megadva tárgy\n●Számos hibajavítás\nEltávolítva:\n●Randomkép\n●Szavazás"
+        "changelog": "**Változás:**\n●`Nekosbest`: új kategóriák\n**Javítás:**\n●`Kőpapírolló`: hiba jelzése, ha nincs megadva tárgy\n●Számos hibajavítás\n**Törölve:**\n●`Randomkép`\n●`Szavazás`"
+    },
+    {
+        "version": "v14.30",
+        "date": "2024. 10. 11.",
+        "changelog": "**Új:**\n●`Restart`: jelenleg lejátszott zene újraindítása\n●`Emojify (Context menu)`\n**Változás:**\n●`Logs -> Moderations`: megadható felhasználó, az ő moderációjainak száma kilistázása\n●`Bans/Kicks/Timeouts/Warns`:\n-gombok kikapcsolnak, ha nincs előző/következő oldal\n-5 percig lehet navigálni\n●`Timeout`: 25 nap helyett 30 nap a maximum időtartam\n●Moderációs parancsok: magyar aliasok\n●`Djrole/Zenecsatorna`: Zene parancsok -> Setup parancsok\n●Néhány leírás módosítása\n**Javítás:**\n●`Avatár (Context menu)`: banner gomb mostantól nem tűnik el, ha felbontást állítunk\n●`Customcommand`: nem számítanak a kis- és nagybetűk\n●Számos kisebb javítás\n**Törölve:**\n●`Szavazás (Context menu)`"
     }
 ]
