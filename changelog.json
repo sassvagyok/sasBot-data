@@ -450,6 +450,13 @@
     {
         "version": "v14.30",
         "date": "2024. 10. 11.",
-        "changelog": "**Új:**\n●`Restart`: jelenleg lejátszott zene újraindítása\n●`Emojify (Context menu)`\n**Változás:**\n●`Logs -> Moderations`: megadható felhasználó, az ő moderációjainak száma kilistázása\n●`Bans/Kicks/Timeouts/Warns`:\n-gombok kikapcsolnak, ha nincs előző/következő oldal\n-5 percig lehet navigálni\n●`Timeout`: 25 nap helyett 30 nap a maximum időtartam\n●Moderációs parancsok: magyar aliasok\n●`Djrole/Zenecsatorna`: Zene parancsok -> Setup parancsok\n●Néhány leírás módosítása\n**Javítás:**\n●`Avatár (Context menu)`: banner gomb mostantól nem tűnik el, ha felbontást állítunk\n●`Customcommand`: nem számítanak a kis- és nagybetűk\n●Számos kisebb javítás\n**Törölve:**\n●`Szavazás (Context menu)`"
+        "changelog": "**Új:**\n●`Restart`: jelenleg lejátszott zene újraindítása\n●`Emojify (Context menu)`\n**Változás:**\n●`Logs -> Moderations`: megadható felhasználó, az ő moderációjainak száma kilistázása\n●`Bans/Kicks/Timeouts/Warns`:\n-gombok kikapcsolnak, ha nincs előző/következő oldal\n-5 percig lehet navigálni\n●`Timeout`: 25 nap helyett 30 nap a maximum időtartam\n●Moderációs parancsok: magyar aliasok\n●`Djrole/Zenecsatorna`: Zene parancsok -> Setup parancsok\n●Néhány leírás módosítása\n**Javítás:**\n●`Avatár (Context menu)`: banner gomb mostantól nem tűnik el, ha felbontást állítunk\n●`Customcommand`: nem számítanak a kis- és nagybetűk\n●Számos kisebb javítás\n**Törölve:**\n●`Szavazás (Context menu)`",
+        "subversions": [
+            {
+                "version": "v14.30.1",
+                "date": "2024. 10. 23.",
+                "changelog": "**Javítás:**\n●Zenelejátszás\n●Status (Slash)"
+            }
+        ]
     }
 ]
