@@ -450,13 +450,18 @@
     {
         "version": "v14.30",
         "date": "2024. 10. 11.",
-        "changelog": "**Új:**\n●`Restart`: jelenleg lejátszott zene újraindítása\n●`Emojify (Context menu)`\n**Változás:**\n●`Logs -> Moderations`: megadható felhasználó, az ő moderációjainak száma kilistázása\n●`Bans/Kicks/Timeouts/Warns`:\n-gombok kikapcsolnak, ha nincs előző/következő oldal\n-5 percig lehet navigálni\n●`Timeout`: 25 nap helyett 30 nap a maximum időtartam\n●Moderációs parancsok: magyar aliasok\n●`Djrole/Zenecsatorna`: Zene parancsok -> Setup parancsok\n●Néhány leírás módosítása\n**Javítás:**\n●`Avatár (Context menu)`: banner gomb mostantól nem tűnik el, ha felbontást állítunk\n●`Customcommand`: nem számítanak a kis- és nagybetűk\n●Számos kisebb javítás\n**Törölve:**\n●`Szavazás (Context menu)`",
+        "changelog": "**Új:**\n●`Restart`: jelenleg lejátszott zene újraindítása\n●`Emojify (Context menu)`\n**Változás:**\n●`Logs` -> `Moderations`: megadható felhasználó, az ő moderációjainak száma kilistázása\n●`Say` -> `Echo`\n●`Bans/Kicks/Timeouts/Warns`:\n-gombok kikapcsolnak, ha nincs előző/következő oldal\n-5 percig lehet navigálni\n●`Timeout`: 25 nap helyett 30 nap a maximum időtartam\n●Moderációs parancsok: magyar aliasok\n●`Djrole/Zenecsatorna`: Zene parancsok -> Setup parancsok\n●Néhány leírás módosítása\n**Javítás:**\n●`Avatár (Context menu)`: banner gomb mostantól nem tűnik el, ha felbontást állítunk\n●`Customcommand`: nem számítanak a kis- és nagybetűk\n●Számos kisebb javítás\n**Törölve:**\n●`Szavazás (Context menu)`",
         "subversions": [
             {
                 "version": "v14.30.1",
                 "date": "2024. 10. 23.",
-                "changelog": "**Javítás:**\n●Zenelejátszás\n●Status (Slash)"
+                "changelog": "**Javítás:**\n●Zenelejátszás\n●`Status (Slash)`"
             }
         ]
+    },
+    {
+        "version": "v14.31",
+        "date": "2025. 02. 09.",
+        "changelog": "**Változás:**\n●`Szóharc`:\n-új logika alapján működik, szavak pontozása szempontok szerint\n-válasz küldése embed-ben\n-ellenőrzés, hogy létező szó lett-e megadva\n●`Queue`:\n-formázás változása\n-mostantól rendesen választ el levágás nélkül\n-gombos zeneirányítás törlése\n●`Szókeresés`: opció az egész szóban való keresésre\n●`Clear`: mostantól nem kell megerősíteni 30-nál több üzenet törlését\n●`Kőpapírolló (Prefix)`: mostantól nem veszi figyelembe az ékezeteket\n●`Randomszám`: mostantól nem számít, melyik a minimum/maximum szám\n●`Lyrics (Slash)`: megadható, hogy mindenki számára látható legyen-e\n●`Permissions`: mostantól nem lehet \"sasOS\" kategóriájú parancsokat módosítani\n●`Most`: gombos zeneirányítás törlése\n●`Ban/Lockdown/Timeout`:\n-időtartam formázása\n-megváltozott embed az időtartam lejártakor\n●`Bans/Kicks/Timeouts/Warns`: formázás változása\n●`Djrole (Slash)`:\n-új alparancs: `beállított`: beállított DJ rang kiírása\n-törlés alparancsnál rögtön törlés\n●`Echo (Prefix)`: mostantól nem törli a parancs üzenetét\n●`Slowmode`: mostantól Moderációs parancs\n●Konfig-parancsok (Slash): néhány alparancs elnevezésének változása\n●Zene-parancsok: számos kisebb változás\n●`Modlog -> Logchannel`\n●`Replace (Prefix)`: új alias: `kicserél`\n●`Timeouts (Prefix)`: új alias: `tos`\n**Javítás:**\n●`Clear (Prefix)`: eddig 1-gyel kevesebb üzenetet törölt\n●`Szókeresés/Serverinfo/Userinfo`: nincs levágás, ha túl sok a szó/emoji/rang\n●`Help` hibáinak javítása\n●`Echo (Context)`: mostmár itt is Echo\n●`Lockdown (Slash)`: időtartam megadása már működik\n●`Changelog (Slash)`\n**Törölve:**\n●`Queueinfo/Search`"
     }
 ]
