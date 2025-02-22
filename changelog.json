@@ -467,7 +467,7 @@
             {
                 "version": "v14.31.1",
                 "date": "2025. 02. 12.",
-                "changelog": "🔨 **Moderációs-parancsok**\n●`Slowmode (Prefix) & Most`: rossz színű embed megjelenítése\n\n⌨️ **Konfigurációs-parancsok**\n● Hiányzó permission ellenőrzések javítása számos parancsnál"
+                "changelog": "🔨 **Moderációs-parancsok**\n●`Slowmode (Prefix)`: rossz színű embed megjelenítésének javítása\n\n🎵 **Zene-parancsok**\n●`Most`: rossz színű embed megjelenítésének javítása\n\n⌨️ **Konfigurációs-parancsok**\n● Hiányzó permission ellenőrzések javítása számos parancsnál"
             },
             {
                 "version": "v14.31.2",
@@ -479,6 +479,13 @@
     {
         "version": "v14.32",
         "date": "2025. 02. 15.",
-        "changelog": "🔨 **Moderációs-parancsok**\n● Indokok hosszának limitálása 250 karakterre\n\n⌨️ **Konfigurációs-parancsok**\n●`Alias`\n-`Prefix`: gombos megerősítés alias törlésénél\n-`Slash`: alparancsok hozzáadása\n●`Membercounter`:\n-lehetőség a kikapcsolásra\n-`Slash`: új `beállítás` és `törlés` alparancsok\n●`Permissions`:\n-`Slash`: új `módosítás`, `módosított`, `visszaállítás` alparancsok\n-`Prefix`: gombos megerősítés visszaállításnál\n-beállított rang kiírás\n●`Zenecsatorna (Slash)`: új `beállított` alparancs\n● Számos kisebb hibajavítás és változás\n\n🔹**Egyéb változások**\n● Számos szövegbevitel hosszának limitálása logikus hosszúságúra (ha túl hosszú egy szöveg, a vége levágásra kerül)"
+        "changelog": "🔨 **Moderációs-parancsok**\n● Indokok hosszának limitálása 250 karakterre\n\n⌨️ **Konfigurációs-parancsok**\n●`Alias`\n-`Prefix`: gombos megerősítés alias törlésénél\n-`Slash`: alparancsok hozzáadása\n●`Membercounter`:\n-lehetőség a kikapcsolásra\n-`Slash`: új `beállítás` és `törlés` alparancsok\n●`Permissions`:\n-`Slash`: új `módosítás`, `módosított`, `visszaállítás` alparancsok\n-`Prefix`: gombos megerősítés visszaállításnál\n-beállított rang kiírás\n●`Zenecsatorna (Slash)`: új `beállított` alparancs\n● Számos kisebb hibajavítás és változás\n\n🔹**Egyéb változások**\n● Számos szövegbevitel hosszának limitálása logikus hosszúságúra (ha túl hosszú egy szöveg, a vége levágásra kerül)",
+        "subversions": [
+            {
+                "version": "v14.32.1",
+                "date": "2025. 02. 22.",
+                "changelog": "⌨️ **Konfigurációs-parancsok**\n●`Toggle`: mostantól a Konfigurációs-parancsok sem kikapcsolhatóak\n`Djrole & Zenecsatorna`: figyelmen kívül hagyás, ha a felhasználó Adminisztátor"
+            }
+        ]
     }
 ]
