@@ -479,13 +479,18 @@
     {
         "version": "v14.32",
         "date": "2025. 02. 15.",
-        "changelog": "🔨 **Moderációs-parancsok**\n● Indokok hosszának limitálása 250 karakterre\n\n⌨️ **Konfigurációs-parancsok**\n●`Alias`\n-`Prefix`: gombos megerősítés alias törlésénél\n-`Slash`: alparancsok hozzáadása\n●`Membercounter`:\n-lehetőség a kikapcsolásra\n-`Slash`: új `beállítás` és `törlés` alparancsok\n●`Permissions`:\n-`Slash`: új `módosítás`, `módosított`, `visszaállítás` alparancsok\n-`Prefix`: gombos megerősítés visszaállításnál\n-beállított rang kiírás\n●`Zenecsatorna (Slash)`: új `beállított` alparancs\n● Számos kisebb hibajavítás és változás\n\n🔹**Egyéb változások**\n● Számos szövegbevitel hosszának limitálása logikus hosszúságúra (ha túl hosszú egy szöveg, a vége levágásra kerül)",
+        "changelog": "🔨 **Moderációs-parancsok**\n● Indokok hosszának limitálása 250 karakterre\n\n⌨️ **Konfigurációs-parancsok**\n●`Alias`:\n-`Prefix`: gombos megerősítés alias törlésénél\n-`Slash`: alparancsok hozzáadása\n●`Membercounter`:\n-lehetőség a kikapcsolásra\n-`Slash`: új `beállítás` és `törlés` alparancsok\n●`Permissions`:\n-`Slash`: új `módosítás`, `módosított`, `visszaállítás` alparancsok\n-`Prefix`: gombos megerősítés visszaállításnál\n-beállított rang kiírás\n●`Zenecsatorna (Slash)`: új `beállított` alparancs\n● Számos kisebb hibajavítás és változás\n\n🔹**További változások**\n● Számos szövegbevitel hosszának limitálása logikus hosszúságúra (ha túl hosszú egy szöveg, a vége levágásra kerül)",
         "subversions": [
             {
                 "version": "v14.32.1",
                 "date": "2025. 02. 22.",
-                "changelog": "⌨️ **Konfigurációs-parancsok**\n●`Toggle`: mostantól a Konfigurációs-parancsok sem kikapcsolhatóak\n`Djrole & Zenecsatorna`: figyelmen kívül hagyás, ha a felhasználó Adminisztátor"
+                "changelog": "⌨️ **Konfigurációs-parancsok**\n●`Toggle`: mostantól a Konfigurációs-parancsok sem kikapcsolhatóak\n●`Djrole & Zenecsatorna`: figyelmen kívül hagyás, ha a felhasználó Adminisztátor"
             }
         ]
+    },
+    {
+        "version": "v14.33",
+        "date": "2025. 02. 22.",
+        "changelog": "🤖 **Információs-parancsok**\n●`sasOS-parancsok` -> `Információs-parancsok`\n●`Changelog`: kiválasztható alverzió\n\n🎵 **Zene-parancsok**\n●`Previous`: megadható, hogy hány zene legyen visszalépve\n\n🍥 **Egyéb-parancsok**\n●`ASCII (Prefix)`: megadható betűtípus\n●`Kőpapírolló & Miatyánk & Sadstory & Serverinfo & Szóharc & Szókeresés & Userinfo (Slash)`: megadható, hogy mindenkinek megjelenjen-e\n●`Szóharc`: játékszabály embed-ként\n\n🔹**További változások**\n● Legtöbb pár betűs beépített alias törlése\n● Parancsok leírásainak egyértelműsítése\n● `Felhasználó` helyett mostantól `Tag`-ra hivatkozás"
     }
 ]
