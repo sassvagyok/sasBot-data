@@ -490,7 +490,12 @@
     },
     {
         "version": "v14.33",
-        "date": "2025. 02. 22.",
+        "date": "2025. 03. 01.",
         "changelog": "🤖 **Információs-parancsok**\n●`sasOS-parancsok` -> `Információs-parancsok`\n●`Changelog`: kiválasztható alverzió\n\n🎵 **Zene-parancsok**\n●`Previous`: megadható, hogy hány zene legyen visszalépve\n\n🍥 **Egyéb-parancsok**\n●`ASCII (Prefix)`: megadható betűtípus\n●`Kőpapírolló & Miatyánk & Sadstory & Serverinfo & Szóharc & Szókeresés & Userinfo (Slash)`: megadható, hogy mindenkinek megjelenjen-e\n●`Szóharc`: játékszabály embed-ként\n\n🔹**További változások**\n● Legtöbb pár betűs beépített alias törlése\n● Parancsok leírásainak egyértelműsítése\n● `Felhasználó` helyett mostantól `Tag`-ra hivatkozás"
+    },
+    {
+        "version": "v14.34",
+        "date": "2025. 03. 09.",
+        "changelog": "**Prefix parancsok megszűnése**: mostantól csak az egyszerűbb, átláthatóbb `Slash` parancsok használhatóak\n\n⌨️ **Konfigurációs-parancsok**\n●`Alias & Prefix` törlése, mert már nincs hasznuk\n●`Farewell & Welcome`:\n-mostantól megadható egyedi fejléc, cím, leírás, kép, szín és állítható az ikon és a timestamp\n-`segítség`: segítő embed kiírása az új paraméterek megértéséhez\n-**a változások miatt a beállított üzenetek törölve lettek!**\n●`Permissions`:\n-mostantól egy parancsot akár 5 ranghoz is lehet kötni\n-`módosítás` -> `átállítás`: ha hozzáadott rang van megadva, akkor azt a rangot törli a rangok listájából\n-**a változások miatt a módosított parancsok listája törölve lett!**\n\n🤖 **Információs-parancsok**\n●`Help`:\n-prefixek és aliasok megjelenítésének eltávolítása\n-megadott parancsnál: használat helyett alparancsok és paraméterek megjelenítése\n\n🔹**További változások**\n● Néhány alparancs leírásának egyértelműsítése"
     }
 ]
