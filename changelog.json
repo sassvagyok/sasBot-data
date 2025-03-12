@@ -497,5 +497,10 @@
         "version": "v14.34",
         "date": "2025. 03. 09.",
         "changelog": "**Prefix parancsok megszűnése**: mostantól csak az egyszerűbb, átláthatóbb `Slash` parancsok használhatóak\n\n⌨️ **Konfigurációs-parancsok**\n●`Alias & Prefix` törlése, mert már nincs hasznuk\n●`Farewell & Welcome`:\n-mostantól megadható egyedi fejléc, cím, leírás, kép, szín és állítható az ikon és a timestamp\n-`segítség`: segítő embed kiírása az új paraméterek megértéséhez\n-**a változások miatt a beállított üzenetek törölve lettek!**\n●`Permissions`:\n-mostantól egy parancsot akár 5 ranghoz is lehet kötni\n-`módosítás` -> `átállítás`: ha hozzáadott rang van megadva, akkor azt a rangot törli a rangok listájából\n-**a változások miatt a módosított parancsok listája törölve lett!**\n\n🤖 **Információs-parancsok**\n●`Help`:\n-prefixek és aliasok megjelenítésének eltávolítása\n-megadott parancsnál: használat helyett alparancsok és paraméterek megjelenítése\n\n🔹**További változások**\n● Néhány alparancs leírásának egyértelműsítése"
+    },
+    {
+        "version": "v14.35",
+        "date": "2025. 03. 12.",
+        "changelog": "⌨️ **Konfigurációs-parancsok**\n●`Autoroles`: `beállított` alparancsnál gombos törlés kivétele\n●`Saveroles`: alparancsokra bontás:\n-`átállitás`: be- és kikapcsolás\n-`állapot`: kiírja, hogy be van-e kapcsolva az automatikus rangadás\n●`Serversettings`: szerver konfigurációjának megnézése\n\n🤖 **Információs-parancsok**\n●`Info` frissítése\n\n🔹**További változások**\n● Szerverzhez adáskor üdvözlő embed küldése\n● Módosított meghívás link"
     }
 ]
