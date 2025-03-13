@@ -506,6 +506,6 @@
     {
         "version": "v14.36",
         "date": "2025. 03. 13.",
-        "changelog": "🔨 **Moderációs-parancsok**\n- `Ban/Kick/Removetimeout/Timeout/Warn` után automatikus üzenet küldése a tagnak (átállítás: `Modsettings`)\n- Számos hiba javítása\n\n⌨️ **Konfigurációs-parancsok**\n- `Farewell/Welcome`: `{tag}` helyett `[tag]` lesz cserélve a tag nevére\n- `Modsettings`:\n    - új parancs a moderációk beállításainak kezelésére\n   - jelenlegi beállítások: Logolás/DM küldése\n\n🍥 **Egyéb-parancsok**\n- `8ball`: új parancs, ami randomizált válaszokat ad eldöntedő kérdésekre\n\n🤖 **Információs-parancsok**\n- `Help`: újra abc szerinti rendezés"
+        "changelog": "🔨 **Moderációs-parancsok**\n- `Ban/Kick/Removetimeout/Timeout/Unban/Warn` után automatikus üzenet küldése a tagnak (átállítás: `Modsettings`)\n- Számos hiba javítása\n\n⌨️ **Konfigurációs-parancsok**\n- `Farewell/Welcome`: `{tag}` helyett `[tag]` lesz cserélve a tag nevére\n- `Modsettings`:\n    - új parancs a moderációk beállításainak kezelésére\n   - jelenlegi beállítások: Logolás/DM küldése\n\n🍥 **Egyéb-parancsok**\n- `8ball`: új parancs, ami randomizált válaszokat ad eldöntedő kérdésekre\n\n🤖 **Információs-parancsok**\n- `Help`: újra abc szerinti rendezés"
     }
 ]
