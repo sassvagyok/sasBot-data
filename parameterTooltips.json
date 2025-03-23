@@ -1,0 +1,193 @@
+{
+    "example": {
+        "paraméter1": "Ez a parancs egyik paramétere<br><b>Kötelező</b>",
+        "paraméter2": "Ez a parancs másik paramétere"
+    },
+    "generic": {
+        "megjelenítés": "Megjelenítés mindenki számára<br>(üres: csak magadnak)",
+        "szöveg": "Kiírandó szöveg<br><b>Kötelező</b>"
+    },
+    "ban": {
+        "tag": "Tag, akit ki akarsz tiltani<br><b>Kötelező</b>",
+        "indok": "Kitiltás indoka<br>(üres: nincs indok)",
+        "időtartam": "Kitiltás időtartama (m/h/d)<br>(üres: nincs lejárat)",
+        "törlés": "A tag üzeneteinek törlése ennyi órával visszamenőleg<br>(üres: nincs törlés)"
+    },
+    "bans": {
+        "tag": "Tag, akinek meg legyenek jelenítve a korábbi kitiltásai<br><b>Kötelező</b>"
+    },
+    "clear": {
+        "üzenetek": "Eltávolítandó üzenetek száma<br><b>Kötelező</b>",
+        "csatorna": "Csatorna, ahonnan törölve legyenek az üzenetek (üres: jelenlegi csatorna)"
+    },
+    "kick": {
+        "tag": "Tag, akit ki akarsz rúgni<br><b>Kötelező</b>",
+        "indok": "Kirúgás indoka<br>(üres: nincs indok)"
+    },
+    "kicks": {
+        "tag": "Tag, akinek meg legyenek jelenítve a korábbi kirúgásai<br><b>Kötelező</b>"
+    },
+    "lockdown": {
+        "csatorna": "Csatorna, amit le akarsz zárni<br>(üres: jelenlegi csatorna)",
+        "időtartam": "Lezárás időtartama (m/h/d)<br>(üres: nincs lejárat)"
+    },
+    "moderations": {
+        "száma": "Moderáció sorszáma<br><b>Kötelező</b>",
+        "tag": "Tag, akinek a moderációinak sorszámai jelenjenek meg<br><b>Kötelező</b>"
+    },
+    "removetimeout": {
+        "tag": "Tag, akinek meg akarod szüntetni a felfüggesztését<br><b>Kötelező</b>",
+        "indok": "Megszüntetés indoka<br>(üres: nincs indok)"
+    },
+    "slowmode": {
+        "másodperc": "Lassított mód mértéke (másodpercben)<br><b>Kötelező</b>",
+        "csatorna": "Csatorna, ahol változzon a lassított mód<br>(üres: jelenlegi csatorna)"
+    },
+    "timeout": {
+        "tag": "Tag, akit fel akarsz függeszteni<br><b>Kötelező</b>",
+        "időtartam": "Felfüggesztés időtartama (m/h/d)<br><b>Kötelező</b>",
+        "indok": "Felfüggesztés indoka<br>(üres: nincs indok)"
+    },
+    "timeouts": {
+        "tag": "Tag, akinek meg legyenek jelenítve a korábbi felfüggesztései<br><b>Kötelező</b>"
+    },
+    "unban": {
+        "tag": "Tag, akinek fel akarod oldani a kitiltását (Felhasználó ID)<br><b>Kötelező</b>",
+        "indok": "Kitiltás feloldásának indoka<br>(üres: nincs indok)"
+    },
+    "unlockdown": {
+        "csatorna": "Csatorna, amit meg akarsz nyitni<br>(üres: jelenlegi csatorna)"
+    },
+    "warn": {
+        "tag": "Tag, akit figyelmeztetni akarsz<br><b>Kötelező</b>",
+        "indok": "Figyelmeztetés indoka<br><b>Kötelező</b>"
+    },
+    "warns": {
+        "tag": "Tag, akinek meg legyenek jelenítve a korábbi figyelmeztetései<br><b>Kötelező</b>"
+    },
+    "filter": {
+        "filter": "Filter kiválasztása<br>(üres: bekapcsolt filterek kiírása)"
+    },
+    "loop": {
+        "mód": "Ismétlés módja"
+    },
+    "lyrics": {
+        "cím": "Keresett zene címe<br>(üres: jelenleg lejátszott zene)"
+    },
+    "play": {
+        "zene": "Zene neve, linkje vagy lejátszási lista linkje<br><b>Kötelező</b>"
+    },
+    "previous": {
+        "zenék" : "Visszalépés ennyi zenével"
+    },
+    "remove": {
+        "zene": "Zene sorszáma a lejátszási sorban"
+    },
+    "seek": {
+        "másodperc": "Ugrás ehhez a másodperchez<br><b>Kötelező</b>"
+    },
+    "skip": {
+        "zenék": "Ennyi zene átugrása"
+    },
+    "volume": {
+        "hangerő": "A lejátszás új hangereje (alapértelmezett: 50)<br>(üres: beállított hangerő kiírása)"
+    },
+    "autoroles": {
+        "rang": "Rang, amit hozzáadsz vagy eltávolítassz az automatikus rangok közül<br><b>Kötelező</b>"
+    },
+    "customcommand": {
+        "parancs": "Egyedi parancs neve<br><b>Kötelező</b>",
+        "válasz": "Egyedi parancs válasza<br><b>Kötelező</b>"
+    },
+    "djrole": {
+        "rang": "Új DJ rang, amivel a zenelejátszás kezelhető lesz (Kivétel: Lyrics, Most, Queue)<br><b>Kötelező</b>"
+    },
+    "farewell": {
+        "csatorna": "Búcsúüzenet csatornája<br><b>Kötelező</b>",
+        "leírás": "Búcsúüzenet leírása (Tag nevének kiírása: [tag])<br><b>Kötelező</b>",
+        "cím": "Búcsúüzenet címe (Tag nevének kiírása: [tag])<br>(üres: nincs)",
+        "fejléc": "Búcsúüzenet fejléce (Tag nevének kiírása: [tag])<br>(üres: \"[tag] kilépett!\")",
+        "kép": "Búcsúüzenet képe<br>(üres: tag profilképe)",
+        "szín": "Búcsúüzenet színe<br>(üres: piros)",
+        "ikon": "Megjelenjen-e a fejléc mellett a tag profilképe?<br>(üres: igaz)",
+        "timestamp": "Megjelenjen-e a kilépés ideje?<br>(üres: igaz)"
+    },
+    "logchannel": {
+        "csatorna": "Log-csatorna neve<br><b>Kötelező</b>"
+    },
+    "membercounter": {
+        "név": "Új csatorna neve, vagy meglévő számláló új neve<br><b>Kötelező</b>"
+    },
+    "modsettings": {
+        "logolás": "Legyenek a sasOS által végzett moderációk naplózva? (alapértelmezett: igen)<br><b>Kötelező</b>",
+        "dm": "Legyenek a sasOS által végzett moderációk elküldve az érintett tagnak? (alapértelmezett: igen)<br><b>Kötelező</b>"
+    },
+    "permissions": {
+        "parancs": "Parancs neve<br><b>Kötelező</b>",
+        "rang": "Rang kiválasztása<br><b>Kötelező</b>"
+    },
+    "toggle": {
+        "parancs": "Parancs neve<br>(üres: kikapcsolt parancsok kilistázása)"
+    },
+    "welcome": {
+        "csatorna": "Üdvözlő üzenet csatornája<br><b>Kötelező</b>",
+        "leírás": "Üdvözlő üzenet leírása (Tag nevének kiírása: [tag])<br><b>Kötelező</b>",
+        "cím": "Üdvözlő üzenet címe (Tag nevének kiírása: [tag])<br>(üres: nincs)",
+        "fejléc": "Üdvözlő üzenet fejléce (Tag nevének kiírása: [tag])<br>(üres: \"[tag] belépett!\")",
+        "kép": "Üdvözlő üzenet képe<br>(üres: tag profilképe)",
+        "szín": "Üdvözlő üzenet színe<br>(üres: zöld)",
+        "ikon": "Megjelenjen-e a fejléc mellett a tag profilképe?<br>(üres: igaz)",
+        "timestamp": "Megjelenjen-e a belépés ideje?<br>(üres: igaz)"
+    },
+    "zenecsatorna": {
+        "csatorna": "Csatorna, ahol a zene-parancsok használhatóak lesznek (kivétel: Lyrics)<br><b>Kötelező</b>"
+    },
+    "8ball": {
+        "kérdés": "Mire keresed a választ?<br><b>Kötelező</b>"
+    },
+    "ascii": {
+        "betűtípus": "Összes betűtípus: https://pastebin.com/AVsvB8Ju"
+    },
+    "avatár": {
+        "tag": "Választott tag<br>(üres: saját profilkép)",
+        "formátum": "A profilkép formátuma<br>(üres: PNG)"
+    },
+    "echo": {
+        "csatorna": "Küldés helye<br>(üres: jelenlegi csatorna)"
+    },
+    "kőpapírolló": {
+        "tárgy": "Mivel játszol?<br><b>Kötelező</b>"
+    },
+    "nekosbest": {
+        "kategória": "Kategória megadása<br>(üres: kategóriák kilistázása)"
+    },
+    "nem": {
+        "tag": "Kinek üzened?"
+    },
+    "randomszám": {
+        "szám1": "Első szám (egész)<br><b>Kötelező</b>",
+        "szám2": "Második szám (egész)<br><b>Kötelező</b>"
+    },
+    "replace": {
+        "kicserélendő": "Kicserélendő karakter(ek) (szóköz: \\s)<br><b>Kötelező</b>",
+        "új": "Új karakter(ek) (szóköz: \\s)<br><b>Kötelező</b>",
+        "szöveg": "Szöveg, amiben ki lesznek cserélve a karakterek<br><b>Kötelező</b>",
+        "vizsgálás": "Kis- és nagybetűk megkülönböztetése<br>(üres: nem)"
+    },
+    "szóharc": {
+        "szó": "A harcba állított szavad<br>(üres: játékszabály megjelenítése)"
+    },
+    "szókeresés": {
+        "szó": "Keresett szavak kezdő karakterei<br><b>Kötelező</b>",
+        "vizsgálat": "Keresés az egész szóban<br>(üres/hamis: csak a szó elején)"
+    },
+    "userinfo": {
+        "tag": "Információk megjelenítése erről a tagról"
+    },
+    "changelog": {
+        "verzió": "Választott verzió (pl.: v14.0; 14.30.1)"
+    },
+    "help": {
+        "parancs": "Részletesebb leírás a megadott parancsról<br>(üres: az összes parancs kilistázása)"
+    }
+}
