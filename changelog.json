@@ -507,5 +507,10 @@
         "version": "v14.36",
         "date": "2025. 03. 13.",
         "changelog": "🔨 **Moderációs-parancsok**\n- `Ban/Kick/Removetimeout/Timeout/Unban/Warn` után automatikus üzenet küldése a tagnak (átállítás: `Modsettings`)\n- Számos hiba javítása\n\n⌨️ **Konfigurációs-parancsok**\n- `Farewell/Welcome`: `{tag}` helyett `[tag]` lesz cserélve a tag nevére\n- `Modsettings`:\n    - új parancs a moderációk beállításainak kezelésére\n   - jelenlegi beállítások: Logolás/DM küldése\n\n🍥 **Egyéb-parancsok**\n- `8ball`: új parancs, ami randomizált válaszokat ad eldöntedő kérdésekre\n\n🤖 **Információs-parancsok**\n- `Help`: újra abc szerinti rendezés"
+    },
+    {
+        "version": "v14.37",
+        "date": "2025. 04. 04.",
+        "changelog": "🔨 **Moderációs-parancsok**\n- `Ban`: üzenetek törlésének jelzése az embedben\n- `Bans`: formázás frissítése\n- `Clear`: mostantól nem küld üzenetet a megadott csatornába\n- A Moderációs-parancsok embedjei megújultak\n\n⌨️ **Konfigurációs-parancsok**\n- `Modsettings`:\n    - lehetőség a moderációs üzenetek küldésének kikapcsolására\n   - `logolás` paraméter egyértelműbb leírása\n\n🔹**További változások**\n- Néhány parancs leírásának változása"
     }
 ]

@@ -119,7 +119,8 @@
         "név": "Új csatorna neve, vagy meglévő számláló új neve<br><b>Kötelező</b>"
     },
     "modsettings": {
-        "logolás": "Legyenek a sasOS által végzett moderációk naplózva? (alapértelmezett: igen)<br><b>Kötelező</b>",
+        "küldés": "Legyenek a sasOS által végzett moderációkról üzenetek küldve? (alapértelmezett: igen)<br><b>Kötelező</b>",
+        "logolás": "Legyenek a sasOS által végzett moderációk elmentve? (alapértelmezett: igen)<br><b>Kötelező</b>",
         "dm": "Legyenek a sasOS által végzett moderációk elküldve az érintett tagnak? (alapértelmezett: igen)<br><b>Kötelező</b>"
     },
     "permissions": {
