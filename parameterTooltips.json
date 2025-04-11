@@ -112,16 +112,14 @@
         "ikon": "Megjelenjen-e a fejléc mellett a tag profilképe?<br>(üres: igaz)",
         "timestamp": "Megjelenjen-e a kilépés ideje?<br>(üres: igaz)"
     },
-    "logchannel": {
-        "csatorna": "Log-csatorna neve<br><b>Kötelező</b>"
-    },
     "membercounter": {
         "név": "Új csatorna neve, vagy meglévő számláló új neve<br><b>Kötelező</b>"
     },
-    "modsettings": {
-        "küldés": "Legyenek a sasOS által végzett moderációkról üzenetek küldve? (alapértelmezett: igen)<br><b>Kötelező</b>",
-        "logolás": "Legyenek a sasOS által végzett moderációk elmentve? (alapértelmezett: igen)<br><b>Kötelező</b>",
-        "dm": "Legyenek a sasOS által végzett moderációk elküldve az érintett tagnak? (alapértelmezett: igen)<br><b>Kötelező</b>"
+    "modconfig": {
+        "bekapcsolás_1": "Legyenek a sasOS által végzett moderációkról üzenetek küldve? (alapértelmezett: igen)<br><b>Kötelező</b>",
+        "bekapcsolás_2": "El legyenek a sasOS által végzett moderációk mentve? (alapértelmezett: igen)<br><b>Kötelező</b>",
+        "bekapcsolás_3": "Legyenek a sasOS által végzett moderációk elküldve az érintett tagnak? (alapértelmezett: igen)<br><b>Kötelező</b>",
+        "csatorna": "Az a csatorna, ahová küldve legyenek a sasOS-moderációk (függetlenül az üzenetküldés beállításától)<br><b>Kötelező</b>"
     },
     "permissions": {
         "parancs": "Parancs neve<br><b>Kötelező</b>",
