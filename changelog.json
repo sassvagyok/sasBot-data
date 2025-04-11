@@ -462,7 +462,7 @@
     {
         "version": "v14.31",
         "date": "2025. 02. 09.",
-        "changelog": "🔨 **Moderációs-parancsok**\n- `Ban & Lockdown & Timeout`:\n    - időtartam formázása\n   - megváltozott embed az időtartam lejártakor\n- `Bans & Kicks & Timeouts & Warns`: formázás változása\n- `Clear`:\n    - mostantól nem kell megerősíteni 30-nál több üzenet törlését\n   - `Prefix`: eddig 1-gyel kevesebb üzenetet törölt\n- `Lockdown (Slash)`: időtartam megadása már működik\n- `Slowmode`: mostantól Moderációs-parancs\n- `Timeouts (Prefix)`: új alias: `tos`\n\n🎵 **Zene-parancsok**\n- `Lyrics (Slash)`: megadható, hogy mindenki számára látható legyen-e\n- `Most`: gombos zeneirányítás törlés\n- `Queue`:\n    - formázás változása\n   - mostantól rendesen választ el levágás nélkül\n   - gombos zeneirányítás törlése\n- `Queueinfo & Search` törlése\n- További kisebb változások\n\n⌨️ **Konfigurációs-parancsok**\n- `Djrole (Slash)`:\n    - új alparancs: beállított: beállított DJ rang kiírása\n   - törlés alparancsnál rögtön törlés\n- `Modlog -> Logchannel`\n- `Permissions`: mostantól nem lehet \"sasOS\" kategóriájú parancsokat módosítani\n- `Slash-változátok`: néhány alparancs elnevezésének változtatása\n\n🍥 **Egyéb-parancsok**\n- `Echo`:\n    - `Context`: mostmár itt is Echo\n   - `Prefix`: mostantól nem törli a parancs üzenetét\n- `Kőpapírolló`: mostantól nem veszi figyelembe az ékezeteket\n- `Randomszám`: mostantól nem számít, melyik a minimum/maximum szám\n- `Replace (Prefix)`: új alias: `kicserél`\n- `Szóharc`:\n    - új logika alapján működik, szavak pontozása szempontok szerint\n   - válasz küldése embed-ben\n   - ellenőrzés, hogy létező szó lett-e megadva\n- `Szókeresés`: opció az egész szóban való keresésre\n\n🤖 **sasOS-parancsok**\n- `Changelog (Slash)`: javítás\n- `Help`: hibák javítása",
+        "changelog": "🔨 **Moderációs-parancsok**\n- `Ban & Lockdown & Timeout`:\n    - időtartam formázása\n   - megváltozott embed az időtartam lejártakor\n- `Bans & Kicks & Timeouts & Warns`: formázás változása\n- `Clear`:\n    - mostantól nem kell megerősíteni 30-nál több üzenet törlését\n   - `Prefix`: eddig 1-gyel kevesebb üzenetet törölt\n- `Lockdown (Slash)`: időtartam megadása már működik\n- `Slowmode`: mostantól Moderációs-parancs\n- `Timeouts (Prefix)`: új alias: `tos`\n\n🎵 **Zene-parancsok**\n- `Lyrics (Slash)`: megadható, hogy mindenki számára látható legyen-e\n- `Most`: gombos zeneirányítás törlés\n- `Queue`:\n    - formázás változása\n   - mostantól rendesen választ el levágás nélkül\n   - gombos zeneirányítás törlése\n- `Queueinfo & Search` törlése\n- További kisebb változások\n\n⌨️ **Konfigurációs-parancsok**\n- `Djrole (Slash)`:\n    - új alparancs: beállított: beállított DJ rang kiírása\n   - törlés alparancsnál rögtön törlés\n- `Modlog -> Logchannel`\n- `Permissions`: mostantól nem lehet \"sasOS\" kategóriájú parancsokat módosítani\n- `Slash-változátok`: néhány alparancs elnevezésének változtatása\n\n🍥 **Sokszínű-parancsok**\n- `Echo`:\n    - `Context`: mostmár itt is Echo\n   - `Prefix`: mostantól nem törli a parancs üzenetét\n- `Kőpapírolló`: mostantól nem veszi figyelembe az ékezeteket\n- `Randomszám`: mostantól nem számít, melyik a minimum/maximum szám\n- `Replace (Prefix)`: új alias: `kicserél`\n- `Szóharc`:\n    - új logika alapján működik, szavak pontozása szempontok szerint\n   - válasz küldése embed-ben\n   - ellenőrzés, hogy létező szó lett-e megadva\n- `Szókeresés`: opció az egész szóban való keresésre\n\n🤖 **sasOS-parancsok**\n- `Changelog (Slash)`: javítás\n- `Help`: hibák javítása",
         "subversions": [
             {
                 "version": "v14.31.1",
@@ -491,7 +491,7 @@
     {
         "version": "v14.33",
         "date": "2025. 03. 01.",
-        "changelog": "🤖 **Információs-parancsok**\n- `sasOS-parancsok` -> `Információs-parancsok`\n- `Changelog`: kiválasztható alverzió\n\n🎵 **Zene-parancsok**\n- `Previous`: megadható, hogy hány zene legyen visszalépve\n\n🍥 **Egyéb-parancsok**\n- `ASCII (Prefix)`: megadható betűtípus\n- `Kőpapírolló & Miatyánk & Sadstory & Serverinfo & Szóharc & Szókeresés & Userinfo (Slash)`: megadható, hogy mindenkinek megjelenjen-e\n- `Szóharc`: játékszabály embed-ként\n\n🔹**További változások**\n- Legtöbb pár betűs beépített alias törlése\n- Parancsok leírásainak egyértelműsítése\n- `Felhasználó` helyett mostantól `Tag`-ra hivatkozás"
+        "changelog": "🤖 **Információs-parancsok**\n- `sasOS-parancsok` -> `Információs-parancsok`\n- `Changelog`: kiválasztható alverzió\n\n🎵 **Zene-parancsok**\n- `Previous`: megadható, hogy hány zene legyen visszalépve\n\n🍥 **Sokszínű-parancsok**\n- `ASCII (Prefix)`: megadható betűtípus\n- `Kőpapírolló & Miatyánk & Sadstory & Serverinfo & Szóharc & Szókeresés & Userinfo (Slash)`: megadható, hogy mindenkinek megjelenjen-e\n- `Szóharc`: játékszabály embed-ként\n\n🔹**További változások**\n- Legtöbb pár betűs beépített alias törlése\n- Parancsok leírásainak egyértelműsítése\n- `Felhasználó` helyett mostantól `Tag`-ra hivatkozás"
     },
     {
         "version": "v14.34",
@@ -506,7 +506,7 @@
     {
         "version": "v14.36",
         "date": "2025. 03. 13.",
-        "changelog": "🔨 **Moderációs-parancsok**\n- `Ban/Kick/Removetimeout/Timeout/Unban/Warn` után automatikus üzenet küldése a tagnak (átállítás: `Modsettings`)\n- Számos hiba javítása\n\n⌨️ **Konfigurációs-parancsok**\n- `Farewell/Welcome`: `{tag}` helyett `[tag]` lesz cserélve a tag nevére\n- `Modsettings`:\n    - új parancs a moderációk beállításainak kezelésére\n   - jelenlegi beállítások: Logolás/DM küldése\n\n🍥 **Egyéb-parancsok**\n- `8ball`: új parancs, ami randomizált válaszokat ad eldöntedő kérdésekre\n\n🤖 **Információs-parancsok**\n- `Help`: újra abc szerinti rendezés"
+        "changelog": "🔨 **Moderációs-parancsok**\n- `Ban/Kick/Removetimeout/Timeout/Unban/Warn` után automatikus üzenet küldése a tagnak (átállítás: `Modsettings`)\n- Számos hiba javítása\n\n⌨️ **Konfigurációs-parancsok**\n- `Farewell/Welcome`: `{tag}` helyett `[tag]` lesz cserélve a tag nevére\n- `Modsettings`:\n    - új parancs a moderációk beállításainak kezelésére\n   - jelenlegi beállítások: Logolás/DM küldése\n\n🍥 **Sokszínű-parancsok**\n- `8ball`: új parancs, ami randomizált válaszokat ad eldöntedő kérdésekre\n\n🤖 **Információs-parancsok**\n- `Help`: újra abc szerinti rendezés"
     },
     {
         "version": "v14.37",
@@ -516,6 +516,13 @@
     {
         "version": "v14.38",
         "date": "2025. 04. 11.",
-        "changelog": "⌨️ **Konfigurációs-parancsok**\n- `Farewell & Welcome`: `segítség` alparancs mostantól `súgó`\n- `Modsettings -> Modconfig`:\n    - mostantól innen kezelhető a logcsatorna is\n   - az eddigi beállítások `konfigurálás`, a logcsatorna beállításai `logcsatorna` csoportokban jelennek meg\n   - `beállítások`: logcsatorna jelzése\n- `Logchannel` törlése"
+        "changelog": "⌨️ **Konfigurációs-parancsok**\n- `Farewell & Welcome`: `segítség` alparancs mostantól `súgó`\n- `Modsettings -> Modconfig`:\n    - mostantól innen kezelhető a logcsatorna is\n   - az eddigi beállítások `konfigurálás`, a logcsatorna beállításai `logcsatorna` csoportokban jelennek meg\n   - `beállítások`: logcsatorna jelzése\n- `Logchannel` törlése",
+        "subversions": [
+            {
+                "version": "v14.38.1",
+                "date": "2025. 04. 12.",
+                "changelog": "🔹**További változások**\n- `Egyéb-parancsok` -> `Sokszínű-parancsok`\n- Technikai változások"
+            }
+        ]
     }
 ]
