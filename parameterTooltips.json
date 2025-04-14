@@ -96,11 +96,13 @@
         "rang": "Rang, amit hozzáadsz vagy eltávolítassz az automatikus rangok közül<br><b>Kötelező</b>"
     },
     "customcommand": {
-        "parancs": "Egyedi parancs neve<br><b>Kötelező</b>",
-        "válasz": "Egyedi parancs válasza<br><b>Kötelező</b>"
+        "parancs_1": "Új egyedi parancs neve<br><b>Kötelező</b>",
+        "válasz_1": "Új egyedi parancs válasza<br><b>Kötelező</b>",
+        "parancs_2": "Egyedi parancs neve<br><b>Kötelező</b>",
+        "válasz_2": "Egyedi parancs új válasza<br><b>Kötelező</b>"
     },
     "djrole": {
-        "rang": "Új DJ rang, amivel a zenelejátszás kezelhető lesz (Kivétel: Lyrics, Most, Queue)<br><b>Kötelező</b>"
+        "rang": "Új DJ rang, amivel a zenelejátszás kezelhető lesz (kivétel: Lyrics, Most, Queue)<br><b>Kötelező</b>"
     },
     "farewell": {
         "csatorna": "Búcsúüzenet csatornája<br><b>Kötelező</b>",
@@ -109,11 +111,11 @@
         "fejléc": "Búcsúüzenet fejléce (Tag nevének kiírása: [tag])<br>(üres: \"[tag] kilépett!\")",
         "kép": "Búcsúüzenet képe<br>(üres: tag profilképe)",
         "szín": "Búcsúüzenet színe<br>(üres: piros)",
-        "ikon": "Megjelenjen-e a fejléc mellett a tag profilképe?<br>(üres: igaz)",
-        "timestamp": "Megjelenjen-e a kilépés ideje?<br>(üres: igaz)"
+        "ikon": "Megjelenjen a fejléc mellett a tag profilképe?<br>(üres: igaz)",
+        "timestamp": "Megjelenjen a kilépés ideje?<br>(üres: igaz)"
     },
     "membercounter": {
-        "név": "Új csatorna neve, vagy meglévő számláló új neve<br><b>Kötelező</b>"
+        "név": "Új csatorna neve, vagy meglévő tagszámláló új neve<br><b>Kötelező</b>"
     },
     "modconfig": {
         "bekapcsolás_1": "Legyenek a sasOS által végzett moderációkról üzenetek küldve? (alapértelmezett: igen)<br><b>Kötelező</b>",
@@ -123,10 +125,10 @@
     },
     "permissions": {
         "parancs": "Parancs neve<br><b>Kötelező</b>",
-        "rang": "Rang kiválasztása<br><b>Kötelező</b>"
+        "rang": "Rang, ami szükséges legyen a parancs használatához, vagy ennek kivétele<br><b>Kötelező</b>"
     },
     "toggle": {
-        "parancs": "Parancs neve<br>(üres: kikapcsolt parancsok kilistázása)"
+        "parancs": "Parancs neve, amit ki- vagy be akarsz kapcsolni<br>(üres: kikapcsolt parancsok kilistázása)"
     },
     "welcome": {
         "csatorna": "Üdvözlő üzenet csatornája<br><b>Kötelező</b>",
@@ -135,8 +137,8 @@
         "fejléc": "Üdvözlő üzenet fejléce (Tag nevének kiírása: [tag])<br>(üres: \"[tag] belépett!\")",
         "kép": "Üdvözlő üzenet képe<br>(üres: tag profilképe)",
         "szín": "Üdvözlő üzenet színe<br>(üres: zöld)",
-        "ikon": "Megjelenjen-e a fejléc mellett a tag profilképe?<br>(üres: igaz)",
-        "timestamp": "Megjelenjen-e a belépés ideje?<br>(üres: igaz)"
+        "ikon": "Megjelenjen a fejléc mellett a tag profilképe?<br>(üres: igaz)",
+        "timestamp": "Megjelenjen a belépés ideje?<br>(üres: igaz)"
     },
     "zenecsatorna": {
         "csatorna": "Csatorna, ahol a zene-parancsok használhatóak lesznek (kivétel: Lyrics)<br><b>Kötelező</b>"
