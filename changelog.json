@@ -522,6 +522,11 @@
                 "version": "v14.38.1",
                 "date": "2025. 04. 12.",
                 "changelog": "🔹**További változások**\n- `Egyéb-parancsok` -> `Sokszínű-parancsok`\n- Technikai változások"
+            },
+            {
+                "version": "v14.38.2",
+                "date": "2025. 04. 14.",
+                "changelog": "🔹**További változások**\n- Néhány parancs leírásának és paramétereinek leírásának változása"
             }
         ]
     }
