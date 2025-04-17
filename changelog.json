@@ -527,6 +527,11 @@
                 "version": "v14.38.2",
                 "date": "2025. 04. 14.",
                 "changelog": "🔹**További változások**\n- Néhány parancs leírásának és paramétereinek leírásának változása"
+            },
+            {
+                "version": "v14.38.3",
+                "date": "2025. 04. 17.",
+                "changelog": "🤖 **Információs-parancsok**\n- `Help`:\n    - megadott parancsnál: bővített embed és alparancs csoportok megjelenítése\n   - összes parancsnál: egyedi parancsoknál csak nevek megjelenítése"
             }
         ]
     }
