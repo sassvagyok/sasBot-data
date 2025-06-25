@@ -539,5 +539,10 @@
                 "changelog": "🔹**További változások**\n- Néhány parancs/alparancs/paraméter leírásának változása"
             }
         ]
+    },
+    {
+        "version": "v14.39",
+        "date": "2025. 06. 25.",
+        "changelog": "⌨️ **Konfigurációs-parancsok**\n- `Toggle`: alparancsokra bontás\n    - `átállítás`: parancsok ki- és bekapcsolása\n   - `kikapcsoltak`: kikapcsolt parancsok megjelenítése, ha vannak\n   - néhány szöveg egyértelműbbé tétele\n\n🤖 **Információs-parancsok**\n- `Help`: megadott parancsnál link kiírása a parancs dokumentációjához\n\n🔹**További változások**\n- Prefix-parancs figyelmeztetés eltávolítása"
     }
 ]
