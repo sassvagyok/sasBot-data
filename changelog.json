@@ -551,5 +551,10 @@
                 "changelog": "🔹**További változások**\n- Kisebb hibajavítások"
             }
         ]
+    },
+    {
+        "version": "v14.40",
+        "date": "2025. 07. 06.",
+        "changelog": "🍥 **Sokszínű-parancsok**\n- `Ötbetű`: találd ki a naponta változó 5 betűs szót 6 próbából!"
     }
 ]
