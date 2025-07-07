@@ -555,6 +555,13 @@
     {
         "version": "v14.40",
         "date": "2025. 07. 06.",
-        "changelog": "🍥 **Sokszínű-parancsok**\n- `Ötbetű`: találd ki a naponta változó 5 betűs szót 6 próbából!"
+        "changelog": "🍥 **Sokszínű-parancsok**\n- `Ötbetű`: találd ki a naponta változó 5 betűs szót 6 próbából!",
+        "subversions": [
+            {
+                "version": "v14.40.1",
+                "date": "2025. 07. 07.",
+                "changelog": "🍥 **Sokszínű-parancsok**\n- `Ötbetű`:\n    - `statisztikák` alparancs: a felhasználó statisztikáinak megjelenítése\n   - `játék` & `súgó` alparancsok\n   - helyes válasz kijelzése 6 próba után\n   - javítva: kevesebb, mint 5 betűs szót is elfogadott"
+            }
+        ]
     }
 ]
