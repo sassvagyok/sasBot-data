@@ -561,6 +561,11 @@
                 "version": "v14.40.1",
                 "date": "2025. 07. 07.",
                 "changelog": "🍥 **Sokszínű-parancsok**\n- `Ötbetű`:\n    - `statisztikák` alparancs: a felhasználó statisztikáinak megjelenítése\n   - `játék` & `súgó` alparancsok\n   - helyes válasz kijelzése 6 próba után\n   - javítva: kevesebb, mint 5 betűs szót is elfogadott"
+            },
+            {
+                "version": "v14.40.2",
+                "date": "2025. 07. 08.",
+                "changelog": "🔹**További változások**\n- sasOS mostantól sasBot!"
             }
         ]
     }
