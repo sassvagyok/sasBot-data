@@ -566,6 +566,11 @@
                 "version": "v14.40.2",
                 "date": "2025. 07. 08.",
                 "changelog": "🔹**További változások**\n- sasOS mostantól sasBot!"
+            },
+            {
+                "version": "v14.40.3",
+                "date": "2025. 07. 08.",
+                "changelog": "🍥 **Sokszínű-parancsok**\n- `Ötbetű`:\n    - mostantól nem lehet tulajdonnév\n   - maradék próbák jelzése\n   - súgó bővítése\n   - első próbából kitaláláskor hiba javítása\n- `Szóharc`:\n    - `játék` és `súgó` alparancsokra bontva\n   - kétszeres szorzó a kitalált nap szavának használatáért"
             }
         ]
     }
