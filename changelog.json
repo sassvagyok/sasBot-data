@@ -573,5 +573,10 @@
                 "changelog": "🍥 **Sokszínű-parancsok**\n- `Ötbetű`:\n    - mostantól nem lehet tulajdonnév\n   - maradék próbák jelzése\n   - súgó bővítése\n   - első próbából kitaláláskor hiba javítása\n- `Szóharc`:\n    - `játék` és `súgó` alparancsokra bontva\n   - kétszeres szorzó a kitalált nap szavának használatáért\n   - mostantól nincs opció a megjelenítésre mindenkinek"
             }
         ]
+    },
+    {
+        "version": "v14.41",
+        "date": "2025. 07. 16.",
+        "changelog": "🍥 **Sokszínű-parancsok**\n- `Saspont-rendszer`:\n    - mostantól egyes tevékenységekért sasPontok kaphatóak és veszthetőek (egyelőre csak `Ötbetű` & `Szóharc`)\n   - a felhasználók sasPontjai globálisan (szervertől függetlenül) gyűjtődnek\n   - minden 100 sasPont 1 szintnek felel meg\n- `Saspont`:\n    - `adatok`: megadott vagy saját sasPontok és szint megjelenítése\n   - `ranglista`: top 10 globális felhasználó megjelenítése\n- `Userinfo`:\n    - sasPont szint megjelenítése\n   - felhasználónév megjelenítése"
     }
 ]
