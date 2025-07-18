@@ -479,7 +479,7 @@
     {
         "version": "v14.32",
         "date": "2025. 02. 15.",
-        "changelog": "🔨 **Moderációs-parancsok**\n- Indokok hosszának limitálása 250 karakterre\n\n⌨️ **Konfigurációs-parancsok**\n- `Alias`:\n    - `Prefix`: gombos megerősítés alias törlésénél\n   - `Slash`: alparancsok hozzáadása\n- `Membercounter`:\n    - lehetőség a kikapcsolásra\n   - `Slash`: új `beállítás` és `törlés` alparancsok\n- `Permissions`:\n    - `Slash`: új `módosítás`, `módosított`, `visszaállítás` alparancsok\n   - `Prefix`: gombos megerősítés visszaállításnál\n   - beállított rang kiírás\n- `Zenecsatorna (Slash)`: új `beállított` alparancs\n- Számos kisebb hibajavítás és változás\n\n🔹**További változások**\n- Számos szövegbevitel hosszának limitálása logikus hosszúságúra (ha túl hosszú egy szöveg, a vége levágásra kerül)",
+        "changelog": "🔹**Rendszerszintű**\n- Számos szövegbevitel hosszának limitálása logikus hosszúságúra (ha túl hosszú egy szöveg, a vége levágásra kerül)\n\n🔨 **Moderációs-parancsok**\n- Indokok hosszának limitálása 250 karakterre\n\n⌨️ **Konfigurációs-parancsok**\n- `Alias`:\n    - `Prefix`: gombos megerősítés alias törlésénél\n   - `Slash`: alparancsok hozzáadása\n- `Membercounter`:\n    - lehetőség a kikapcsolásra\n   - `Slash`: új `beállítás` és `törlés` alparancsok\n- `Permissions`:\n    - `Slash`: új `módosítás`, `módosított`, `visszaállítás` alparancsok\n   - `Prefix`: gombos megerősítés visszaállításnál\n   - beállított rang kiírás\n- `Zenecsatorna (Slash)`: új `beállított` alparancs\n- Számos kisebb hibajavítás és változás",
         "subversions": [
             {
                 "version": "v14.32.1",
@@ -491,17 +491,17 @@
     {
         "version": "v14.33",
         "date": "2025. 03. 01.",
-        "changelog": "🤖 **Információs-parancsok**\n- `sasOS-parancsok` -> `Információs-parancsok`\n- `Changelog`: kiválasztható alverzió\n\n🎵 **Zene-parancsok**\n- `Previous`: megadható, hogy hány zene legyen visszalépve\n\n🍥 **Sokszínű-parancsok**\n- `ASCII (Prefix)`: megadható betűtípus\n- `Kőpapírolló & Miatyánk & Sadstory & Serverinfo & Szóharc & Szókeresés & Userinfo (Slash)`: megadható, hogy mindenkinek megjelenjen-e\n- `Szóharc`: játékszabály embed-ként\n\n🔹**További változások**\n- Legtöbb pár betűs beépített alias törlése\n- Parancsok leírásainak egyértelműsítése\n- `Felhasználó` helyett mostantól `Tag`-ra hivatkozás"
+        "changelog": "🔹**Rendszerszintű**\n- Legtöbb pár betűs beépített alias törlése\n- Parancsok leírásainak egyértelműsítése\n- `Felhasználó` helyett mostantól `Tag`-ra hivatkozás\n\n🤖 **Információs-parancsok**\n- `sasOS-parancsok` -> `Információs-parancsok`\n- `Changelog`: kiválasztható alverzió\n\n🎵 **Zene-parancsok**\n- `Previous`: megadható, hogy hány zene legyen visszalépve\n\n🍥 **Sokszínű-parancsok**\n- `ASCII (Prefix)`: megadható betűtípus\n- `Kőpapírolló & Miatyánk & Sadstory & Serverinfo & Szóharc & Szókeresés & Userinfo (Slash)`: megadható, hogy mindenkinek megjelenjen-e\n- `Szóharc`: játékszabály embed-ként"
     },
     {
         "version": "v14.34",
         "date": "2025. 03. 09.",
-        "changelog": "**Prefix parancsok megszűnése**: mostantól csak az egyszerűbb, átláthatóbb `Slash` parancsok használhatóak\n\n⌨️ **Konfigurációs-parancsok**\n- `Alias & Prefix` törlése, mert már nincs hasznuk\n- `Farewell & Welcome`:\n    - mostantól megadható egyedi fejléc, cím, leírás, kép, szín és állítható az ikon és a timestamp\n   - `segítség`: segítő embed kiírása az új paraméterek megértéséhez\n   - **a változások miatt a beállított üzenetek törölve lettek!**\n- `Permissions`:\n    - mostantól egy parancsot akár 5 ranghoz is lehet kötni\n   - `módosítás` -> `átállítás`: ha hozzáadott rang van megadva, akkor azt a rangot törli a rangok listájából\n   - **a változások miatt a módosított parancsok listája törölve lett!**\n\n🤖 **Információs-parancsok**\n- `Help`:\n    - prefixek és aliasok megjelenítésének eltávolítása\n   - megadott parancsnál: használat helyett alparancsok és paraméterek megjelenítése\n\n🔹**További változások**\n- Néhány alparancs leírásának egyértelműsítése"
+        "changelog": "🔹**Rendszerszintű**\n- **Prefix parancsok megszűnése**: mostantól csak az egyszerűbb, átláthatóbb `Slash` parancsok használhatóak\n- Néhány alparancs leírásának egyértelműsítése\n\n⌨️ **Konfigurációs-parancsok**\n- `Alias & Prefix` törlése, mert már nincs hasznuk\n- `Farewell & Welcome`:\n    - mostantól megadható egyedi fejléc, cím, leírás, kép, szín és állítható az ikon és a timestamp\n   - `segítség`: segítő embed kiírása az új paraméterek megértéséhez\n   - **a változások miatt a beállított üzenetek törölve lettek!**\n- `Permissions`:\n    - mostantól egy parancsot akár 5 ranghoz is lehet kötni\n   - `módosítás` -> `átállítás`: ha hozzáadott rang van megadva, akkor azt a rangot törli a rangok listájából\n   - **a változások miatt a módosított parancsok listája törölve lett!**\n\n🤖 **Információs-parancsok**\n- `Help`:\n    - prefixek és aliasok megjelenítésének eltávolítása\n   - megadott parancsnál: használat helyett alparancsok és paraméterek megjelenítése"
     },
     {
         "version": "v14.35",
         "date": "2025. 03. 12.",
-        "changelog": "⌨️ **Konfigurációs-parancsok**\n- `Autoroles`: `beállított` alparancsnál gombos törlés kivétele\n- `Saveroles`: alparancsokra bontás:\n    - `átállitás`: be- és kikapcsolás\n   - `állapot`: kiírja, hogy be van-e kapcsolva az automatikus rangadás\n- `Serversettings`: új parancs a szerver konfigurációjának megnézéséhez\n\n🤖 **Információs-parancsok**\n- `Info` frissítése\n\n🔹**További változások**\n- Szerverhez adáskor üdvözlő embed küldése\n- Módosított meghívás link"
+        "changelog": "🔹**Rendszerszintű**\n- Szerverhez adáskor üdvözlő embed küldése\n- Módosított meghívás link\n\n⌨️ **Konfigurációs-parancsok**\n- `Autoroles`: `beállított` alparancsnál gombos törlés kivétele\n- `Saveroles`: alparancsokra bontás:\n    - `átállitás`: be- és kikapcsolás\n   - `állapot`: kiírja, hogy be van-e kapcsolva az automatikus rangadás\n- `Serversettings`: új parancs a szerver konfigurációjának megnézéséhez\n\n🤖 **Információs-parancsok**\n- `Info` frissítése"
     },
     {
         "version": "v14.36",
@@ -511,7 +511,7 @@
     {
         "version": "v14.37",
         "date": "2025. 04. 04.",
-        "changelog": "🔨 **Moderációs-parancsok**\n- `Ban`: üzenetek törlésének jelzése az embedben\n- `Bans`: formázás frissítése\n- `Clear`: mostantól nem küld üzenetet a megadott csatornába\n- A Moderációs-parancsok embedjei megújultak\n\n⌨️ **Konfigurációs-parancsok**\n- `Modsettings`:\n    - lehetőség a moderációs üzenetek küldésének kikapcsolására\n   - `logolás` paraméter egyértelműbb leírása\n\n🔹**További változások**\n- Néhány parancs leírásának változása"
+        "changelog": "🔹**Rendszerszintű**\n- Néhány parancs leírásának változása\n\n🔨 **Moderációs-parancsok**\n- `Ban`: üzenetek törlésének jelzése az embedben\n- `Bans`: formázás frissítése\n- `Clear`: mostantól nem küld üzenetet a megadott csatornába\n- A Moderációs-parancsok embedjei megújultak\n\n⌨️ **Konfigurációs-parancsok**\n- `Modsettings`:\n    - lehetőség a moderációs üzenetek küldésének kikapcsolására\n   - `logolás` paraméter egyértelműbb leírása"
     },
     {
         "version": "v14.38",
@@ -521,12 +521,12 @@
             {
                 "version": "v14.38.1",
                 "date": "2025. 04. 12.",
-                "changelog": "🔹**További változások**\n- `Egyéb-parancsok` -> `Sokszínű-parancsok`\n- Technikai változások"
+                "changelog": "🔹**Rendszerszintű**\n- `Egyéb-parancsok` -> `Sokszínű-parancsok`\n- Technikai változások"
             },
             {
                 "version": "v14.38.2",
                 "date": "2025. 04. 14.",
-                "changelog": "🔹**További változások**\n- Néhány parancs leírásának és paramétereinek leírásának változása"
+                "changelog": "🔹**Rendszerszintű**\n- Néhány parancs leírásának és paramétereinek leírásának változása"
             },
             {
                 "version": "v14.38.3",
@@ -536,19 +536,19 @@
             {
                 "version": "v14.38.4",
                 "date": "2025. 06. 13.",
-                "changelog": "🔹**További változások**\n- Néhány parancs/alparancs/paraméter leírásának változása"
+                "changelog": "🔹**Rendszerszintű**\n- Néhány parancs/alparancs/paraméter leírásának változása"
             }
         ]
     },
     {
         "version": "v14.39",
         "date": "2025. 06. 25.",
-        "changelog": "⌨️ **Konfigurációs-parancsok**\n- `Toggle`: alparancsokra bontás\n    - `átállítás`: parancsok ki- és bekapcsolása\n   - `kikapcsoltak`: kikapcsolt parancsok megjelenítése, ha vannak\n   - néhány szöveg egyértelműbbé tétele\n\n🤖 **Információs-parancsok**\n- `Help`: megadott parancsnál link kiírása a parancs dokumentációjához\n\n🔹**További változások**\n- Prefix-parancs figyelmeztetés eltávolítása",
+        "changelog": "🔹**Rendszerszintű**\n- Prefix-parancs figyelmeztetés eltávolítása\n\n⌨️ **Konfigurációs-parancsok**\n- `Toggle`: alparancsokra bontás\n    - `átállítás`: parancsok ki- és bekapcsolása\n   - `kikapcsoltak`: kikapcsolt parancsok megjelenítése, ha vannak\n   - néhány szöveg egyértelműbbé tétele\n\n🤖 **Információs-parancsok**\n- `Help`: megadott parancsnál link kiírása a parancs dokumentációjához",
         "subversions": [
             {
                 "version": "v14.39.1",
                 "date": "2025. 06. 30.",
-                "changelog": "🔹**További változások**\n- Kisebb hibajavítások"
+                "changelog": "🔹**Rendszerszintű**\n- Kisebb hibajavítások"
             }
         ]
     },
@@ -565,7 +565,7 @@
             {
                 "version": "v14.40.2",
                 "date": "2025. 07. 08.",
-                "changelog": "🔹**További változások**\n- sasOS mostantól sasBot!"
+                "changelog": "🔹**Rendszerszintű**\n- sasOS mostantól sasBot!"
             },
             {
                 "version": "v14.40.3",
@@ -577,6 +577,11 @@
     {
         "version": "v14.41",
         "date": "2025. 07. 16.",
-        "changelog": "🍥 **Sokszínű-parancsok**\n- `Saspont-rendszer`:\n    - mostantól egyes tevékenységekért sasPontok kaphatóak és veszthetőek (egyelőre csak `Ötbetű` & `Szóharc`)\n   - a felhasználók sasPontjai globálisan (szervertől függetlenül) gyűjtődnek\n   - minden 100 sasPont 1 szintnek felel meg\n- `Saspont`:\n    - `adatok`: megadott vagy saját sasPontok és szint megjelenítése\n   - `ranglista`: top 10 globális felhasználó megjelenítése\n- `Userinfo`:\n    - sasPont szint megjelenítése\n   - felhasználónév megjelenítése"
+        "changelog": "🔹**Rendszerszintű**\n- `sasPont-rendszer`:\n    - mostantól egyes tevékenységekért sasPontok kaphatóak és veszthetőek (egyelőre csak `Ötbetű` & `Szóharc`)\n   - a felhasználók sasPontjai globálisan (szervertől függetlenül) gyűjtődnek\n   - minden 100 sasPont 1 szintnek felel meg\n\n🍥 **Sokszínű-parancsok**\n- `Saspont`:\n    - `adatok`: megadott vagy saját sasPontok és szint megjelenítése\n   - `ranglista`: top 10 globális felhasználó megjelenítése\n- `Userinfo`:\n    - sasPont szint megjelenítése\n   - felhasználónév megjelenítése"
+    },
+    {
+        "version": "v14.42",
+        "date": "2025. 07. 18.",
+        "changelog": "🔹**Rendszerszintű**\n- `sasPont-rendszer`: mostantól minden sasBot-parancs használatáért +5 sP jár!\n\n🍥 **Sokszínű-parancsok**\n- `Saspont`:\n    - `adatok`:\n    - szintlépéshez szükséges sP megjelenítése\n    - legutóbbi három sP változás megjelenítése\n    - hibajavítások\n   - `ranglista`: mostantól megnézhető a szerver ranglistája (külön alparancsban)\n   - `súgó`: főbb információk megjelenítése a sasPontokról\n- `Serverinfo`:\n    - megjelenés változása\n   - mostantól nem jelzi a szerveren kikapcsolt parancsokat\n- `Userinfo`:\n    - megjelenés változása\n   - felhasználó banner színének mutatása"
     }
 ]
