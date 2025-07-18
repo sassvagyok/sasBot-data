@@ -582,6 +582,6 @@
     {
         "version": "v14.42",
         "date": "2025. 07. 18.",
-        "changelog": "🔹**Rendszerszintű**\n- `sasPont-rendszer`: mostantól minden sasBot-parancs használatáért +5 sP jár!\n\n🍥 **Sokszínű-parancsok**\n- `Saspont`:\n    - `adatok`:\n    - szintlépéshez szükséges sP megjelenítése\n    - legutóbbi három sP változás megjelenítése\n    - hibajavítások\n   - `ranglista`: mostantól megnézhető a szerver ranglistája (külön alparancsban)\n   - `súgó`: főbb információk megjelenítése a sasPontokról\n- `Serverinfo`:\n    - megjelenés változása\n   - mostantól nem jelzi a szerveren kikapcsolt parancsokat\n- `Userinfo`:\n    - megjelenés változása\n   - felhasználó banner színének mutatása"
+        "changelog": "🔹**Rendszerszintű**\n- `sasPont-rendszer`: mostantól minden sasBot-parancs használatáért +5 sP jár!\n\n🍥 **Sokszínű-parancsok**\n- `Saspont`:\n    - `adatok`:\n    - szintlépéshez szükséges sP megjelenítése\n    - legutóbbi három sP változás megjelenítése\n    - hibajavítások\n   - `ranglista`: mostantól megnézhető a szerver ranglistája (külön alparancsban)\n   - `súgó`: főbb információk megjelenítése a sasPontokról\n- `Serverinfo`:\n    - megjelenés változása\n   - mostantól nem jelzi a szerveren kikapcsolt parancsokat\n- `Szóharc`: vesztéskor az ellenfél pontjainak levonása sP-ben\n- `Userinfo`:\n    - megjelenés változása\n   - felhasználó banner színének mutatása"
     }
 ]
