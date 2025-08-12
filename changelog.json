@@ -599,6 +599,13 @@
     {
         "version": "v14.44",
         "date": "2025. 08. 11.",
-        "changelog": "🔹**Rendszerszintű**\n-# Változások:\n- Az alábbi parancsok megjelenése megújult:\n    - `Autoplay`, `Clearqueue`, `Filter`, `Loop`, `Lyrics`, `Pause`, `Previous`, `Queue`, `Restart`, `Resume`, `Seek`, `Shuffle`, `Skip`, `Stop`, `Volume`\n\n🎵 **Zene-parancsok**\n-# Javítások:\n- `Filter`: nincs válasz paraméter nélküli használatkor\n- `Lyrics`:\n    - nincs válasz, ha a lejátszás zenéje van lekérve\n   - a zeneszöveg előtt további szöveg jelenik meg\n- `Most` & `Seek`: a lejátszott zene ideje nem helyesen jelenik meg\n-# Változások:\n- `Volume`: a minimum érték mostantól 1"
+        "changelog": "🔹**Rendszerszintű**\n-# Változások:\n- Az alábbi parancsok megjelenése megújult:\n    - `Autoplay`, `Clearqueue`, `Filter`, `Loop`, `Lyrics`, `Pause`, `Previous`, `Queue`, `Restart`, `Resume`, `Seek`, `Shuffle`, `Skip`, `Stop`, `Volume`\n\n🎵 **Zene-parancsok**\n-# Változások:\n- `Volume`: a minimum érték mostantól 1\n-# Javítások:\n- `Filter`: nincs válasz paraméter nélküli használatkor\n- `Lyrics`:\n    - nincs válasz, ha a lejátszás zenéje van lekérve\n   - a zeneszöveg előtt további szöveg jelenik meg\n- `Most` & `Seek`: a lejátszott zene ideje nem helyesen jelenik meg",
+        "subversions": [
+            {
+                "version": "v14.44.1",
+                "date": "2025. 08. 12.",
+                "changelog": "🔹**Rendszerszintű**\n-# Változások:\n- Mostantól ha egy parancs futtatásakor hiba következik be, válaszként erről üzenet érkezik a hiba azonosítójával, ami alapján jelenthető a hiba\n\n🎵 **Zene-parancsok**\n-# Változások:\n- További zene-interakciók megjelenítése megújult\n-# Javítások:\n- `Remove`: nem jelenik meg a 'Megtekintés' mező"
+            }
+        ]
     }
 ]
