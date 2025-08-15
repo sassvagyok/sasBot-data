@@ -604,7 +604,12 @@
             {
                 "version": "v14.44.1",
                 "date": "2025. 08. 12.",
-                "changelog": "🔹**Rendszerszintű**\n-# Változások:\n- Mostantól ha egy parancs futtatásakor hiba következik be, válaszként erről üzenet érkezik a hiba azonosítójával, ami alapján jelenthető a hiba\n\n🎵 **Zene-parancsok**\n-# Változások:\n- További zene-interakciók megjelenítése megújult\n-# Javítások:\n- `Remove`: nem jelenik meg a 'Megtekintés' mező"
+                "changelog": "🔹**Rendszerszintű**\n-# Változások:\n- Mostantól ha egy parancs futtatásakor hiba következik be, válaszként erről üzenet érkezik a hiba azonosítójával, ami alapján jelenthető az\n\n🎵 **Zene-parancsok**\n-# Változások:\n- További zene-interakciók megjelenítése megújult\n-# Javítások:\n- `Remove`: nem jelenik meg a 'Megtekintés' mező"
+            },
+            {
+                "version": "v14.44.2",
+                "date": "2025. 08. 15.",
+                "changelog": "🔨 **Moderációs-parancsok**\n-# Változások:\n- `Lockdown`:\n    - csak akkor használható megadott csatornán, ha a használónak van joga a csatornába írni\n   - lezárás alatt a használónak lesz joga írni a csatornába\n- `Slowmode & Unlockdown`: csak akkor használható megadott csatornán, ha a használónak van joga a csatornába írni\n\n**🍥 Sokszínű-parancsok**\n-# Változások:\n- `Echo`: csak akkor lehet megadott csatornába küldeni, ha a használónak van joga oda írni"
             }
         ]
     }
