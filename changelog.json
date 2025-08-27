@@ -612,5 +612,10 @@
                 "changelog": "🔨 **Moderációs-parancsok**\n-# Változások:\n- `Lockdown`:\n    - csak akkor használható megadott csatornán, ha a használónak van joga a csatornába írni\n   - lezárás alatt a használónak lesz joga írni a csatornába\n- `Slowmode & Unlockdown`: csak akkor használható megadott csatornán, ha a használónak van joga a csatornába írni\n\n**🍥 Sokszínű-parancsok**\n-# Változások:\n- `Echo`: csak akkor lehet megadott csatornába küldeni, ha a használónak van joga oda írni"
             }
         ]
+    },
+    {
+        "version": "v14.45",
+        "date": "2025. 08. 27.",
+        "changelog": "🔹**Rendszerszintű**\n-# Változások:\n- Az alábbi parancsok megjelenése megújult: `Autoroles hozzáadott`, `Customcommand parancsok`, `Modconfig beállítások`, `Permissions módosított`, `Serversettings`, `Toggle kikapcsoltak`\n\n⌨️ **Konfigurációs-parancsok**\n-# Változások:\n- `Autoroles`\n    - `kezelés` alparancs helyett `hozzáadás` és `eltávolítás` alparancsok\n   - `beállított` -> `hozzáadott`\n   - `hozzáadott`: rangok megjelölése\n- `Djrole`: rangok megjelölése\n- `Permissions`\n    - mostantól nem veszi figyelembe, ha Adminisztrátor a használó\n   - `módosított`: ha több, mint 15 módosított parancs van, lapozás gombokkal\n- `Serversettings`:\n    - mostantól nem jelzi a logcsatornát\n   - mostantól az automatikus rangok számát jelzi, nem a nevüket jeleníti meg"
     }
 ]
