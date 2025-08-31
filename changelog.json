@@ -617,5 +617,10 @@
         "version": "v14.45",
         "date": "2025. 08. 27.",
         "changelog": "🔹**Rendszerszintű**\n-# Változások:\n- Az alábbi parancsok megjelenése megújult: `Autoroles hozzáadott`, `Customcommand parancsok`, `Modconfig beállítások`, `Permissions módosított`, `Serversettings`, `Toggle kikapcsoltak`\n\n⌨️ **Konfigurációs-parancsok**\n-# Változások:\n- `Autoroles`:\n    - `kezelés` alparancs helyett `hozzáadás` és `eltávolítás` alparancsok\n   - `beállított` -> `hozzáadott`\n   - `hozzáadott`: rangok megjelölése\n- `Djrole`: rangok megjelölése\n- `Permissions`:\n    - mostantól nem veszi figyelembe, ha Adminisztrátor a használó\n   - `módosított`: ha több, mint 15 módosított parancs van, lapozás gombokkal\n- `Serversettings`:\n    - mostantól nem jelzi a logcsatornát\n   - mostantól az automatikus rangok számát jelzi, nem a nevüket jeleníti meg"
+    },
+    {
+        "version": "v14.46",
+        "date": "2025. 08. 31.",
+        "changelog": "🔹**Rendszerszintű**\n-# Változások:\n- `sasPont-rendszer`:\n    - mostantól nincsenek szintek\n   - nagyobb mennyiségű sasPontok kijelzésének formázása\n   - `Ötbetű & Szóharc`: kétszer annyi sasPontot adnak\n\n**🍥 Sokszínű-parancsok**\n-# Új:\n- `Saspont Casino Coinflip`: fej vagy írás sasPont megduplázásért\n- `Saspont Casino Crash`: minden körben növekedhet a szorzó, vagy elvesztődhet a téted\n-# Változás:\n- `Ötbetű`: mostantól minden körben megjeleníti az előző körök eredményeit\n- `Saspont adatok`:\n    - szint helyett globális helyezés jelzése\n   - 3 helyett 5 korábbi sasPont-szerzés megjelenítése\n- `Saspont súgó`: sasPont-kaszinó szabályokkal bővítve"
     }
 ]
