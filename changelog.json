@@ -625,7 +625,14 @@
     },
     {
         "version": "v14.47",
-        "date": "2025. 09. 11.",
-        "changelog": "🔹**Rendszerszintű**\n-# Változások:\n- Mostantól csak azok a parancsok és válaszok jelennek meg kizárólag a használó számára, amik megindokolják azt\n    - Emiatt már egyik parancsnak sincs `Megjelenítés` paramétere\n\n🎵 **Zene-parancsok**\n-# Változások:\n- A zene/lejátszási lista hozzáadása és a lejátszás üzenetei megújultak\n- Mostantól a lejátszási sor nem tartalmazza az éppen lejátszott zenét\n- `Most` & `Remove`: megújult megjelenítés\n\n⌨️ **Konfigurációs-parancsok**\n-# Változások:\n- `Membercounter`: mostantól azonnal frissül\n\n**🍥 Sokszínű-parancsok**\n-# Változások:\n- `Szókeresés`: mostantól kiírja, hogy hány szó nem lett megjelenítve"
+        "date": "2025. 09. 12.",
+        "changelog": "🔹**Rendszerszintű**\n-# Változások:\n- Mostantól csak azok a parancsok és válaszok jelennek meg kizárólag a használó számára, amik megindokolják azt\n    - Emiatt már egyik parancsnak sincs `Megjelenítés` paramétere\n\n🎵 **Zene-parancsok**\n-# Változások:\n- A zene/lejátszási lista hozzáadása és a lejátszás üzenetei megújultak\n- Mostantól a lejátszási sor nem tartalmazza az éppen lejátszott zenét\n- `Most` & `Remove`: megújult megjelenítés\n\n⌨️ **Konfigurációs-parancsok**\n-# Változások:\n- `Membercounter`: mostantól azonnal frissül\n\n**🍥 Sokszínű-parancsok**\n-# Változások:\n- `Szókeresés`: mostantól kiírja, hogy hány szó nem lett megjelenítve",
+        "subversions": [
+            {
+                "version": "v14.47.1",
+                "date": "2025. 09. 12.",
+                "changelog": "**🍥 Sokszínű-parancsok**:\n-# Javítások:\n- `Randomszám`: hibaüzenet küldése DM-ben\n\n🤖 **Információs-parancsok**:\n-# Változások:\n- `Help részletes`: paraméterek leírásának megjelenítése"
+            }
+        ]
     }
 ]
