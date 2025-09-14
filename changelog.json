@@ -631,12 +631,12 @@
             {
                 "version": "v14.47.1",
                 "date": "2025. 09. 12.",
-                "changelog": "**🍥 Sokszínű-parancsok**:\n-# Javítások:\n- `Randomszám`: hibaüzenet küldése DM-ben\n\n🤖 **Információs-parancsok**:\n-# Változások:\n- `Help részletes`: paraméterek leírásának megjelenítése"
+                "changelog": "**🍥 Sokszínű-parancsok**\n-# Javítások:\n- `Randomszám`: hibaüzenet küldése DM-ben\n\n🤖 **Információs-parancsok**\n-# Változások:\n- `Help részletes`: paraméterek leírásának megjelenítése"
             },
             {
                 "version": "v14.47.2",
                 "date": "2025. 09. 15.",
-                "changelog": "🔹**Rendszerszintű**:\n-# Változások:\n- Frissített bemutatkozó üzenet\n\n⌨️ **Konfigurációs-parancsok**\n-# Javítások:\n- `Toggle`: minden esetben 'Bekapcsolva' üzenet küldése\n\n**🍥 Sokszínű-parancsok**\n-# Változások:\n- `Saspont Casino`\n    - mostantól a minimum tét 50 sP\n   - `Crash`:\n    - gombok felcserélése\n    - esély jelzése\n\n🤖 **Információs-parancsok**:\n-# Javítások:\n- `Changelog` & `Status`: újra színesek\n-# Változások:\n- `Help részletes`: jelzés, ha a parancs nem elérhető DM-ben"
+                "changelog": "🔹**Rendszerszintű**\n-# Változások:\n- Frissített bemutatkozó üzenet\n\n⌨️ **Konfigurációs-parancsok**\n-# Javítások:\n- `Toggle`: minden esetben 'Bekapcsolva' üzenet küldése\n\n**🍥 Sokszínű-parancsok**\n-# Változások:\n- `Saspont Casino`\n    - mostantól a minimum tét 50 sP\n   - `Crash`:\n    - gombok felcserélése\n    - esély jelzése\n\n🤖 **Információs-parancsok**\n-# Javítások:\n- `Changelog` & `Status`: újra színesek\n-# Változások:\n- `Help részletes`: jelzés, ha a parancs nem elérhető DM-ben"
             }
         ]
     }
